@@ -1,0 +1,30 @@
+C:\Users\bebe\source\repos\ControlDeLed\ControlDeLed\bin\Debug\ControlDeLed.exe.config
+C:\Users\bebe\source\repos\ControlDeLed\ControlDeLed\bin\Debug\ControlDeLed.exe
+C:\Users\bebe\source\repos\ControlDeLed\ControlDeLed\bin\Debug\ControlDeLed.pdb
+C:\Users\bebe\source\repos\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.csprojAssemblyReference.cache
+C:\Users\bebe\source\repos\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.Form1.resources
+C:\Users\bebe\source\repos\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.Properties.Resources.resources
+C:\Users\bebe\source\repos\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.csproj.GenerateResource.cache
+C:\Users\bebe\source\repos\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.csproj.CoreCompileInputs.cache
+C:\Users\bebe\source\repos\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.exe
+C:\Users\bebe\source\repos\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.pdb
+C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\SERIE HMI JADSA\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.csprojAssemblyReference.cache
+C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\SERIE HMI JADSA\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.Form1.resources
+C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\SERIE HMI JADSA\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.Properties.Resources.resources
+C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\SERIE HMI JADSA\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.csproj.GenerateResource.cache
+C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\SERIE HMI JADSA\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.csproj.CoreCompileInputs.cache
+C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\SERIE HMI JADSA\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.exe
+C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\SERIE HMI JADSA\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.pdb
+C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\SERIE HMI JADSA\ControlDeLed\ControlDeLed\bin\Debug\ControlDeLed.exe.config
+C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\SERIE HMI JADSA\ControlDeLed\ControlDeLed\bin\Debug\ControlDeLed.exe
+C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\SERIE HMI JADSA\ControlDeLed\ControlDeLed\bin\Debug\ControlDeLed.pdb
+C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\WINDOWS FORMS\SERIE HMI JADSA\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.csproj.AssemblyReference.cache
+C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\WINDOWS FORMS\SERIE HMI JADSA\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.Form1.resources
+C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\WINDOWS FORMS\SERIE HMI JADSA\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.Properties.Resources.resources
+C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\WINDOWS FORMS\SERIE HMI JADSA\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.csproj.GenerateResource.cache
+C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\WINDOWS FORMS\SERIE HMI JADSA\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.csproj.CoreCompileInputs.cache
+C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\WINDOWS FORMS\SERIE HMI JADSA\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.exe
+C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\WINDOWS FORMS\SERIE HMI JADSA\ControlDeLed\ControlDeLed\obj\Debug\ControlDeLed.pdb
+C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\WINDOWS FORMS\SERIE HMI JADSA\ControlDeLed\ControlDeLed\bin\Debug\ControlDeLed.exe.config
+C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\WINDOWS FORMS\SERIE HMI JADSA\ControlDeLed\ControlDeLed\bin\Debug\ControlDeLed.exe
+C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\WINDOWS FORMS\SERIE HMI JADSA\ControlDeLed\ControlDeLed\bin\Debug\ControlDeLed.pdb
