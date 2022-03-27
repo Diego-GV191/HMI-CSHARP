@@ -28,3 +28,14 @@ C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\WINDOWS FORMS\SERIE HMI JADSA
 C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\WINDOWS FORMS\SERIE HMI JADSA\ControlDeLed\ControlDeLed\bin\Debug\ControlDeLed.exe.config
 C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\WINDOWS FORMS\SERIE HMI JADSA\ControlDeLed\ControlDeLed\bin\Debug\ControlDeLed.exe
 C:\Users\bebe\Documents\1PRACTICAS\PRACTICAS\C#\YO\WINDOWS FORMS\SERIE HMI JADSA\ControlDeLed\ControlDeLed\bin\Debug\ControlDeLed.pdb
+C:\Users\forla\Documents\PRACTICAS\HMI-CSHARP\ControlDeLed\bin\Debug\ControlDeLed.exe.config
+C:\Users\forla\Documents\PRACTICAS\HMI-CSHARP\ControlDeLed\bin\Debug\ControlDeLed.exe
+C:\Users\forla\Documents\PRACTICAS\HMI-CSHARP\ControlDeLed\bin\Debug\ControlDeLed.pdb
+C:\Users\forla\Documents\PRACTICAS\HMI-CSHARP\ControlDeLed\obj\Debug\ControlDeLed.csproj.AssemblyReference.cache
+C:\Users\forla\Documents\PRACTICAS\HMI-CSHARP\ControlDeLed\obj\Debug\ControlDeLed.csproj.SuggestedBindingRedirects.cache
+C:\Users\forla\Documents\PRACTICAS\HMI-CSHARP\ControlDeLed\obj\Debug\ControlDeLed.Form1.resources
+C:\Users\forla\Documents\PRACTICAS\HMI-CSHARP\ControlDeLed\obj\Debug\ControlDeLed.Properties.Resources.resources
+C:\Users\forla\Documents\PRACTICAS\HMI-CSHARP\ControlDeLed\obj\Debug\ControlDeLed.csproj.GenerateResource.cache
+C:\Users\forla\Documents\PRACTICAS\HMI-CSHARP\ControlDeLed\obj\Debug\ControlDeLed.csproj.CoreCompileInputs.cache
+C:\Users\forla\Documents\PRACTICAS\HMI-CSHARP\ControlDeLed\obj\Debug\ControlDeLed.exe
+C:\Users\forla\Documents\PRACTICAS\HMI-CSHARP\ControlDeLed\obj\Debug\ControlDeLed.pdb
