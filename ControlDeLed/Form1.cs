@@ -311,7 +311,6 @@ namespace ControlDeLed
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            // llevar al enlace
             System.Diagnostics.Process.Start("https://github.com/Diego-GV191/HMI-CSHARP");
         }
     }
