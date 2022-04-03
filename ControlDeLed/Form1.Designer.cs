@@ -46,7 +46,8 @@ namespace ControlDeLed
             this.port_serial = new System.Windows.Forms.ComboBox();
             this.conect = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnBLU = new System.Windows.Forms.Button();
+            this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnEnviar = new System.Windows.Forms.Button();
             this.txtRecibir = new System.Windows.Forms.RichTextBox();
             this.lblRecibir = new System.Windows.Forms.Label();
@@ -196,7 +197,8 @@ namespace ControlDeLed
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.button1);
+            this.groupBox3.Controls.Add(this.btnBLU);
+            this.groupBox3.Controls.Add(this.btnLimpiar);
             this.groupBox3.Controls.Add(this.btnEnviar);
             this.groupBox3.Controls.Add(this.txtRecibir);
             this.groupBox3.Controls.Add(this.lblRecibir);
@@ -207,26 +209,43 @@ namespace ControlDeLed
             this.groupBox3.Margin = new System.Windows.Forms.Padding(10);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(10);
-            this.groupBox3.Size = new System.Drawing.Size(455, 215);
+            this.groupBox3.Size = new System.Drawing.Size(520, 215);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Terminal";
             // 
-            // button1
+            // btnBLU
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(0, 113);
-            this.button1.Margin = new System.Windows.Forms.Padding(10);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 36);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Limpiar";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnBLU.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnBLU.BackColor = System.Drawing.Color.Red;
+            this.btnBLU.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBLU.FlatAppearance.BorderSize = 0;
+            this.btnBLU.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBLU.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBLU.Location = new System.Drawing.Point(0, 154);
+            this.btnBLU.Margin = new System.Windows.Forms.Padding(10);
+            this.btnBLU.Name = "btnBLU";
+            this.btnBLU.Size = new System.Drawing.Size(125, 36);
+            this.btnBLU.TabIndex = 6;
+            this.btnBLU.Text = "Bluetooth";
+            this.btnBLU.UseVisualStyleBackColor = false;
+            this.btnBLU.Click += new System.EventHandler(this.btn_BLU_Click);
+            // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.btnLimpiar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLimpiar.FlatAppearance.BorderSize = 0;
+            this.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpiar.Location = new System.Drawing.Point(0, 113);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(10);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(125, 36);
+            this.btnLimpiar.TabIndex = 5;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = false;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // btnEnviar
             // 
@@ -236,7 +255,7 @@ namespace ControlDeLed
             this.btnEnviar.FlatAppearance.BorderSize = 0;
             this.btnEnviar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEnviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnviar.Location = new System.Drawing.Point(363, 27);
+            this.btnEnviar.Location = new System.Drawing.Point(428, 27);
             this.btnEnviar.Margin = new System.Windows.Forms.Padding(10);
             this.btnEnviar.Name = "btnEnviar";
             this.btnEnviar.Size = new System.Drawing.Size(82, 36);
@@ -250,10 +269,10 @@ namespace ControlDeLed
             this.txtRecibir.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtRecibir.Location = new System.Drawing.Point(97, 79);
+            this.txtRecibir.Location = new System.Drawing.Point(127, 79);
             this.txtRecibir.Name = "txtRecibir";
             this.txtRecibir.ReadOnly = true;
-            this.txtRecibir.Size = new System.Drawing.Size(344, 123);
+            this.txtRecibir.Size = new System.Drawing.Size(379, 123);
             this.txtRecibir.TabIndex = 3;
             this.txtRecibir.Text = "";
             this.txtRecibir.TextChanged += new System.EventHandler(this.txtRecibir_TextChanged);
@@ -262,7 +281,7 @@ namespace ControlDeLed
             // 
             this.lblRecibir.AutoSize = true;
             this.lblRecibir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRecibir.Location = new System.Drawing.Point(13, 79);
+            this.lblRecibir.Location = new System.Drawing.Point(36, 79);
             this.lblRecibir.Name = "lblRecibir";
             this.lblRecibir.Size = new System.Drawing.Size(85, 25);
             this.lblRecibir.TabIndex = 2;
@@ -273,9 +292,9 @@ namespace ControlDeLed
             this.txtEnviar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtEnviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEnviar.Location = new System.Drawing.Point(97, 31);
+            this.txtEnviar.Location = new System.Drawing.Point(99, 31);
             this.txtEnviar.Name = "txtEnviar";
-            this.txtEnviar.Size = new System.Drawing.Size(253, 29);
+            this.txtEnviar.Size = new System.Drawing.Size(316, 29);
             this.txtEnviar.TabIndex = 1;
             this.txtEnviar.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtEnviar_KeyDown);
             // 
@@ -283,7 +302,7 @@ namespace ControlDeLed
             // 
             this.lblEnviar.AutoSize = true;
             this.lblEnviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEnviar.Location = new System.Drawing.Point(14, 31);
+            this.lblEnviar.Location = new System.Drawing.Point(13, 31);
             this.lblEnviar.Name = "lblEnviar";
             this.lblEnviar.Size = new System.Drawing.Size(80, 25);
             this.lblEnviar.TabIndex = 0;
@@ -309,7 +328,7 @@ namespace ControlDeLed
             series2.Name = "Analog2";
             this.chart1.Series.Add(series1);
             this.chart1.Series.Add(series2);
-            this.chart1.Size = new System.Drawing.Size(808, 171);
+            this.chart1.Size = new System.Drawing.Size(873, 171);
             this.chart1.TabIndex = 3;
             this.chart1.Text = "Lectura";
             // 
@@ -391,9 +410,10 @@ namespace ControlDeLed
         private System.Windows.Forms.Label lblRecibir;
         private System.Windows.Forms.Button btnEnviar;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Button btnBLU;
     }
 }
 

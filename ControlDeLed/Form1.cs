@@ -37,6 +37,7 @@ namespace ControlDeLed
         private void DesactivarComponentes()
         {
             Apagar();
+            ApagarBluetooth();
             button_E_A.Enabled = false;
             txtEnviar.Enabled = false;
             btnEnviar.Enabled = false;
@@ -48,6 +49,16 @@ namespace ControlDeLed
             button_E_A.Enabled = true;
             txtEnviar.Enabled = true;
             btnEnviar.Enabled = true;
+        }
+
+        private void EncenderBluetooth()
+        {
+            btnBLU.BackColor = Color.Lime;
+        }
+
+        private void ApagarBluetooth()
+        {
+            btnBLU.BackColor = Color.Red;
         }
 
         private void Apagar()
@@ -282,6 +293,8 @@ namespace ControlDeLed
                     txtRecibir.Text += serialData.Trim() + '\n';
                     if (serialData.Trim().Equals("$On")) Encender();
                     if (serialData.Trim().Equals("$Off")) Apagar();
+                    if (serialData.Trim().Equals("Bluetooth On")) EncenderBluetooth();
+                    if (serialData.Trim().Equals("Bluetooth Off")) ApagarBluetooth();
                     if (serialData.Trim().StartsWith("#A"))
                     {
                         int posicion = serialData.IndexOf("A");
@@ -306,7 +319,7 @@ namespace ControlDeLed
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnLimpiar_Click(object sender, EventArgs e)
         {
             txtRecibir.Clear();
         }
@@ -314,6 +327,18 @@ namespace ControlDeLed
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://github.com/Diego-GV191/HMI-CSHARP");
+        }
+
+        private void btn_BLU_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                SendData("!Blu");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }
