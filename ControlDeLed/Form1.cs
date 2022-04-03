@@ -36,6 +36,7 @@ namespace ControlDeLed
 
         private void DesactivarComponentes()
         {
+            Apagar();
             button_E_A.Enabled = false;
             txtEnviar.Enabled = false;
             btnEnviar.Enabled = false;
@@ -43,6 +44,7 @@ namespace ControlDeLed
 
         private void ActivarComponentes()
         {
+            SendData("=RD");
             button_E_A.Enabled = true;
             txtEnviar.Enabled = true;
             btnEnviar.Enabled = true;
@@ -126,7 +128,6 @@ namespace ControlDeLed
                 try
                 {
                     // cerrar el puerto
-                    SendData("$Off");
                     serialPort1.Close();
                     Application.Exit();
                 }
@@ -203,7 +204,6 @@ namespace ControlDeLed
             {
                 try
                 {
-                    SendData("$Off");
                     DesactivarComponentes();
                     serialPort1.Close();
                     port_serial.Items.Clear();
@@ -279,7 +279,9 @@ namespace ControlDeLed
                 if (serialPort1.IsOpen && serialPort1.BytesToRead > 0)
                 {
                     String serialData = serialPort1.ReadLine();
-                    txtRecibir.Text += serialData;
+                    txtRecibir.Text += serialData.Trim() + '\n';
+                    if (serialData.Trim().Equals("$On")) Encender();
+                    if (serialData.Trim().Equals("$Off")) Apagar();
                     if (serialData.Trim().StartsWith("#A"))
                     {
                         int posicion = serialData.IndexOf("A");
