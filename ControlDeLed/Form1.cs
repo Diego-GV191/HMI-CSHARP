@@ -326,7 +326,14 @@ namespace ControlDeLed
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/Diego-GV191/HMI-CSHARP");
+            try
+            {
+                System.Diagnostics.Process.Start("https://github.com/Diego-GV191/HMI-CSHARP");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void btn_BLU_Click(object sender, EventArgs e)
